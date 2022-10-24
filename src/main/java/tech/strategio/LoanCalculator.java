@@ -14,10 +14,13 @@ public class LoanCalculator {
      */
     static int getRemainingAmountIn3Months(int amount) {
         // TODO: Rewrite this method
-        for (int i= 0; i<3; i++) {
-			month = (int)(newAmount*0.1);
-			newAmount = newAmount - month;
-		}
+        int month,newAmount;
+	newAmount = amount;
+	for (int i= 0; i<3; i++)
+	{
+		month = (int)(newAmount*0.1);
+		newAmount = newAmount - month;
+	}
         return newAmount;
     }
 
