@@ -8,9 +8,9 @@ public class LoanCalculator {
      * TODO: finish out this JavaDoc comment block.
      * 
      * Calculates the amount earned after 3 months 
-     * if the loaner payed evry month 10% of the amount owed.
-     * @param the full amount owned (int)
-     * @return the amount owned after 3 months (int)
+     * if the loaner payed every month 10% of the amount owed.
+     * @param  amount the amount owned (int)
+     * @return newAmount the amount owned after 3 months (int)
      */
     static int getRemainingAmountIn3Months(int amount) {
         // TODO: Rewrite this method
